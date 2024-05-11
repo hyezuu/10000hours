@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    font-family: GmarketSans, sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-color: #5B2386;
+}
+
+.page {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 564px;
+    height: 265px;
+    margin-bottom: 46px;
+}
+
+.clock {
+    width: 261px;
+    height: 265px;
+}
+
+.title_contents {
+    width: 564px;
+    height: 112px;
+    position: relative;
+    top: -191px;
+}
+
+.introduction {
+    font-family: OTEnjoystoriesBA, sans-serif;
+    font-size: 36px;
+    color: #F5DF4D;
+    margin-bottom: 78px;
+}
+
+.explain {
+    position: relative;
+    top: 13px;
+    margin-bottom: 78px;
+}
+
+
+.explain_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.quotation_marks {
+    vertical-align: bottom;
+    width: 493px;
+    height: 96px;
+    position: absolute;
+    left: -60px;
+    top: 13px;
+}
+
+.explain_text strong {
+    font-family: GmarketSans, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.explain_text span {
+    font-size: 18px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    font-size: 24px;
+    margin-bottom: 115px;
+}
+
+.input_form {
+    position: relative;
+    width: 228px;
+    height: 57px;
+    text-align: center;
+    border-radius: 7px;
+    bottom: 2px;
+}
+
+::placeholder {
+    position: relative;
+    top: 3px;
+    color: #BABCBE;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input span {
+    padding-inline: 10px;
+    vertical-align: center;
+}
+
+.submit {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 32px;
+}
+
+.calculate {
+    width: 565px;
+    height: 66px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #FCEE21;
+    color: #5B2386;
+    border-radius: 56px;
+    text-align: center;
+    margin-bottom: 147px;
+}
+
+.click {
+    padding-left: 1px;
+    width: 64px;
+    height: 72px;
+    position: relative;
+    top: 14px;
+
+}
+
+.result {
+    margin-bottom: 127px;
+}
+.result p {
+    text-align: center;
+}
+
+.result p span {
+    font-size: 24px;
+    position: relative;
+    bottom: 17px;
+}
+
+.result p strong {
+    vertical-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    padding-inline: 12px;
+}
+
+.buttons {
+    margin-bottom: 130px;
+}
+
+.gogo {
+    width: 356px;
+    height: 66px;
+    background-color: #FCEE21;
+    font-weight: 700;
+    font-size: 24px;
+    color: #5B2386;
+    border-radius: 56px;
+}
+.share {
+    width: 191px;
+    height: 66px;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    color: #5B2386;
+    border-radius: 56px;
+}
+
+
+
+.copyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+.weniv_logo {
+    width: 125px;
+    height: 25px;
+    padding-block: 20px;
+}
+
+.copyright p {
+    font-size: 12px;
+}
